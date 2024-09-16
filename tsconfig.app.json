@@ -13,15 +13,16 @@
     "experimentalDecorators": true,
     "lib": ["DOM", "ESNext", "ScriptHost", "DOM.Iterable"],
     "paths": {
-      "@shared": ["./src/shared"],
-      "@/*": ["./src/*", "./dist/*"],
-      "@ui": ["./src/shared/ui"],
-      "@features": ["./src/features"],
-      "@providers": ["./src/shared/providers"],
-      "@widgets": ["./src/widgets"],
-      "@entities": ["./src/entities"],
+      "@app": ["./src/app"],
       "@pages": ["./src/pages"],
-      "@app": ["./src/app"]
+      "@ui": ["./src/shared/ui"],
+      "@shared": ["./src/shared"],
+      "@api": ["./src/shared/api"],
+      "@widgets": ["./src/widgets"],
+      "@/*": ["./src/*", "./dist/*"],
+      "@features": ["./src/features"],
+      "@entities": ["./src/entities"],
+      "@providers": ["./src/shared/providers"]
     }
   }
 }
