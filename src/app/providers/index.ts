@@ -8,9 +8,9 @@ type ProviderHandle = (app: App) => void;
 
 export function mapProviders(app: App): App {
   const providers: ProviderHandle[] = [
+    AxiosProvider,
     PiniaProvider,
     RouterProvider,
-    AxiosProvider,
   ];
   providers.forEach((provider: ProviderHandle) => app.use(provider));
 
